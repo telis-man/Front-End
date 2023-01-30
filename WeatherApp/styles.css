@@ -1,0 +1,389 @@
+body {
+    padding:0;
+    margin:0;
+    font-family:'Quicksand',sans-serif;
+    font-family:'Bebas Neue',cursive;
+    background-color:#FAF3E3
+    }
+    
+    .location {
+    font-size:3rem
+    }
+    
+    h1 {
+    padding:0;
+    margin:0;
+    letter-spacing:1px
+    }
+    
+    p {
+    padding:0;
+    margin:0
+    }
+    
+    .weekTablet {
+    display:none
+    }
+    
+    .pollenMobile>p {
+    text-align:center
+    }
+    
+    .logo {
+    font-size:2.2rem;
+    margin:5px 15px 0 10px
+    }
+    
+    h4 {
+    font-size:large;
+    margin:0;
+    padding:0;
+    justify-self:center
+    }
+    
+    h2 {
+    margin:8px;
+    font-size:2rem;
+    margin-top:6px
+    }
+    
+    .mobileNav {
+    display:flex;
+    justify-content:space-between
+    }
+    
+    ul {
+    list-style:none;
+    padding:0;
+    margin:5px;
+    display:none
+    }
+    
+    li {
+    display:flex
+    }
+    
+    .container>div {
+    margin:10px 0
+    }
+    
+    li:first-child>a {
+    background-color:#000;
+    color:#FAF3E3;
+    transition:.4s ease
+    }
+    
+    li:first-child>a:hover {
+    color:#000;
+    background-color:#FAF3E3
+    }
+    
+    li>a {
+    transition:.4s ease
+    }
+    
+    li>a:hover {
+    background-color:#000;
+    color:#FAF3E3
+    }
+    
+    a {
+    text-decoration:none;
+    border:2px solid #000;
+    color:#000;
+    flex:1;
+    width:100%;
+    text-align:center;
+    padding:10px;
+    margin:5px;
+    border-radius:10px
+    }
+    
+    .hamburger {
+    margin:5px
+    }
+    
+    .hamburgerSub {
+    width:35px;
+    height:5px;
+    background-color:#000;
+    margin:6px 0;
+    border-radius:8px
+    }
+    
+    .mainInfo {
+    margin-left:20px
+    }
+    
+    .subSection {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:100px;
+    align-items:center
+    }
+    
+    h3 {
+    font-size:2.8rem;
+    text-align:center;
+    margin:0;
+    padding:0;
+    margin-left:10px
+    }
+    
+    .mainIcon {
+    font-size:3rem
+    }
+    
+    .card {
+    height:auto;
+    width:99%;
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr 1fr;
+    align-items:center;
+    justify-items:center
+    }
+    
+    .dNoneMobile {
+    display:none
+    }
+    
+    .icon {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    font-size:3rem;
+    transition:.5s ease
+    }
+    
+    .icon:hover {
+    scale:1.1
+    }
+    
+    .detail {
+    display:none
+    }
+    
+    h5 {
+    padding-top:50px;
+    width:100%;
+    text-align:center;
+    border-bottom:1px solid #000;
+    line-height:.1em;
+    margin:10px 0 20px
+    }
+    
+    h5 span {
+    background-color:#FAF3E3;
+    padding:0 10px;
+    font-size:20px
+    }
+    
+    .mobileLogoNone {
+    display:none
+    }
+    
+    .currently {
+    display:none
+    }
+    
+    .fixed {
+    display:grid;
+    align-self:start;
+    grid-template-columns:1fr
+    }
+    
+    @media screen and (min-width: 576px) {
+    .container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    font-size:1.2rem
+    }
+    
+    img {
+    border:1px solid #000;
+    border-radius:.8rem
+    }
+    
+    .dNoneTablet {
+    display:none
+    }
+    
+    .dNoneMobile {
+    display:block
+    }
+    
+    .card {
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr
+    }
+    
+    .icon {
+    font-size:3.2rem
+    }
+    }
+    
+    .mainInfo {
+    display:block
+    }
+    
+    @keyframes example {
+    from {
+    transform:rotate(0)
+    }
+    
+    to {
+    transform:rotate(360deg)
+    }
+    }
+    
+    .animation {
+    font-size:5rem;
+    animation-name:example;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-iteration-count:infinite
+    }
+    
+    .currentlyIcon {
+    display:flex;
+    justify-content:center;
+    margin-top: 15px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    }
+    
+    @media screen and (min-width: 768px) {
+    .fixed {
+    display:grid;
+    align-self:start;
+    grid-template-columns:1fr 1fr
+    }
+    
+    .currently {
+    justify-self:end;
+    align-self:start;
+    margin-right:20px;
+    display:block
+    }
+    
+    .mobileLogoNone {
+    display:block
+    }
+    
+    .mobileNav {
+    display:none
+    }
+    
+    ul {
+    display:flex;
+    margin-bottom:10px
+    }
+    
+    .rightElement {
+    margin-left:auto
+    }
+    
+    .container>div {
+    width:14%
+    }
+    
+    .card {
+    grid-template-rows:1fr 2fr 1fr 1fr;
+    grid-template-columns:1fr
+    }
+    
+    h4 {
+    justify-self:center
+    }
+    
+    .icon {
+    margin:10px 0
+    }
+    
+    .detail {
+    display:block
+    }
+    
+    h5 span {
+    font-size:15px
+    }
+    
+    .container {
+    font-size:1.5rem
+    }
+    
+    h4 {
+    font-size:1.5rem
+    }
+    
+    .location {
+    font-size:4rem
+    }
+    
+    .textLeft > p {
+    font-size:1rem
+    }
+    }
+    
+    @media screen and (min-width: 1200px) {
+    .fixed {
+    width:1200px
+    }
+    
+    .mainInfo {
+    display:flex;
+    justify-content:center
+    }
+    
+    h5 span {
+    font-size:20px
+    }
+    
+    nav {
+    display:flex;
+    justify-content:center
+    }
+    
+    ul {
+    width:1200px
+    }
+    
+    .container>div {
+    width:170px
+    }
+    
+    .container {
+    justify-content:center
+    }
+    
+    .icon {
+    font-size:3.5rem
+    }
+    
+    .fixed {
+    width:1200px
+    }
+    
+    .container {
+    font-size:1.5rem
+    }
+    
+    h4 {
+    font-size:2rem
+    }
+    
+    .location {
+    font-size:6rem
+    }
+    
+    .textLeft > p {
+    font-size:2rem
+    }
+    }
+    
+    @media screen and (min-width: 1300px) {
+    .container>div {
+    width:180px
+    }
+    }

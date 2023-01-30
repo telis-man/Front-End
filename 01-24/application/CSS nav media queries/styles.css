@@ -1,0 +1,178 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+    background-color: #84a59d;
+    background-color: #f7ede2;
+}
+
+p{
+   text-align: end;
+   margin-top: 0;
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
+
+h4{
+    font-size: large;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: end;
+    margin-right: 10px;
+}
+
+h2{
+    margin: 8px;
+    font-size: 2rem;
+    margin-top: 6px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #f7ede2;
+    font-size: 3rem;
+    margin: 0;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.mobileNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+    display: none;
+}
+
+li{
+    display: flex;
+}
+
+li:first-child > a{
+    background-color: #473C33;
+    color: #f7ede2;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid #473C33;
+    color: #473C33;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+img{
+    height: auto;
+    width: 99%;
+}
+
+.hamburger{
+    width: 50px;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.hamburgerSub {
+    width: 35px;
+    height: 5px;
+    background-color: #473C33;
+    margin: 6px 0;
+    border-radius:8px;
+  }
+
+  video{
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .banner{
+    display: none;
+  }
+
+  
+@media screen and (min-width: 576px){
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container > div{
+    width: 46%;
+    padding: 10px;
+}
+
+img{
+    border: 1px solid #473C33;
+    border-radius: 0.8rem;
+}
+    
+}
+
+@media screen and (min-width: 768px){
+
+
+    .banner{
+        display: block;
+      }
+
+    .mobileNav{
+        display: none;
+    } 
+
+    ul{
+        display: flex;
+        margin-bottom: 20px;
+
+    }
+    .rightElement{
+        margin-left: auto;
+    }
+    .container > div{
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+   nav{
+        display: flex;
+        justify-content: center;
+
+   }
+    ul{
+        width: 1200px;
+        /* flex: 1; */
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+    .container > div{
+        width: 260px;
+        padding: 20px;
+    }
+
+    .container{
+        justify-content: center;
+    }
+
+}

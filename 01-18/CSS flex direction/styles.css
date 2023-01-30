@@ -1,0 +1,70 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #84a59d;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+}
+
+
+.parentRow{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #f6bd60;
+    margin: 10px;
+    padding: 10px;
+}
+
+.parentRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 200px;
+    background-color: #f6bd60;
+    margin: 10px;
+    padding: 10px;
+}
+
+.parentColumn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color: #f6bd60;
+    margin: 10px;
+}
+
+.parentColumnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 200px;
+    background-color: #f6bd60;
+    margin: 10px;
+}
+
+.child{
+    height: 180px;
+    background-color: #84a59d;
+    flex: 1;
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.parentInline{
+    display: inline-flex;
+    width: 400px;
+    height: 200px;
+    background-color: #f6bd60;
+    margin: 10px;
+}

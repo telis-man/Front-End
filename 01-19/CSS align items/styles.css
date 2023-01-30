@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #84a59d;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+}
+
+
+.parentRow{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    background-color: #f6bd60;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.on{
+    align-items: center;
+}
+
+.tw{
+    align-items: flex-start;
+}
+
+.th{
+    align-items: flex-end;
+}
+
+.fo{
+    align-items: baseline;
+}
+
+.fi{
+    align-items: stretch;
+}
+
+.child{
+    width: 50px;
+    background-color: #84a59d;
+    margin: 10px;
+    padding: 10px;
+}
+
+.border{
+    border: 1px solid #f28482;
+}

@@ -1,0 +1,15 @@
+div{
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    padding: 20px;
+    margin: 10px;
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg") ;
+}
+

@@ -1,0 +1,35 @@
+#one{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 157, 0);
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
+#two{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(65, 16, 173);
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: -50px;
+    margin-bottom: -20px;
+}
+
+#three{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 185, 161);
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -50px;
+    margin-bottom: -20px;
+}
+
+.container{
+    height: 280px;
+    background-color: black;
+}

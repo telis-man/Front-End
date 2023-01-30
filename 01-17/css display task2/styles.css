@@ -1,0 +1,39 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+main{
+    width: 600px;
+    margin: 10px;
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.container{
+    margin: 10%;
+}
+
+.card{
+    display: inline-block;
+    width: 550px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+.img{
+    background-color: blueviolet;
+    border-radius: 5px;
+    height:200px ;
+}

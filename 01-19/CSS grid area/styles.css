@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #84a59d;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+}
+
+
+.conatainer{
+    background-color: #f5cac3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto); 
+    grid-gap: 10px;
+    grid-template-areas: "header header header" "sidebar main main" ". footer footer" ;
+}
+
+.box{
+    background-color: #f6bd60;
+    border: 1px solid #473C33;
+}
+
+.BOX1{
+grid-area: header;
+}
+
+.BOX2{
+    grid-area: main;
+}
+
+.BOX3{
+    grid-area: sidebar;
+}
+
+.BOX4{
+    grid-area: footer;
+}

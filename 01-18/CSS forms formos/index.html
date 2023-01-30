@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="">
+        
+            <h1>Payment Form</h1>
+            <p>required fields are followed by *</p>
+            <h2>Contact Information</h2>
+        
+            <div class="mt">
+            <label class="block">Name:*</label>
+            <input type="text">
+            </div>
+
+            <div class="mt">
+            <label class="block">E-mail:*</label>
+            <input type="email">
+            </div>
+
+            <div class="mt">
+            <label class="block">Password:*</label>
+            <input type="password">
+            </div>
+        
+            <h2>Payment Information</h2>
+        
+            <div class="mt">
+            <label for="">Card Type:*</label>
+            <select>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Visa">Visa</option>
+                <option value="Other">Other</option>
+            </select>
+            </div>
+
+            <div class="mt">
+            <label>Account number:*</label>
+            <input class="inline" type="number">
+            </div>
+
+            <div class="mt">
+            <label>Expiration date:*</label>
+            <input class="inline" type="date">
+            </div>
+
+            <div class="mt">
+            <label>Agree with terms and conditions:</label>
+            <input class="inline" type="checkbox">
+            </div>
+
+            <hr>
+
+            <button type="submit">Validate the payment</button>
+        
+        </form>
+
+    </div>
+
+</body>
+</html>

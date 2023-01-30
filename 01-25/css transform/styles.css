@@ -1,0 +1,63 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #84a59d;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+}
+
+.conatainer{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #84a59d;
+    margin: 10px;
+}
+
+.box{
+    transition: all 0.4s ease;
+}
+
+
+.box1:hover{
+
+    transform: scale(0.5);
+}
+
+.box2:hover{
+
+    transform: translate(20px, 10px);
+
+}
+
+.box3:hover{
+    transform: rotate(45deg) translate(0, 80px);
+
+}
+
+.box4:hover{
+    transform: scaleY(1.2);
+}
+
+.box5:hover{
+    transform: translateY(10px);
+}
+
+
+.box6:hover{
+    transform: perspective(50px);
+}
+

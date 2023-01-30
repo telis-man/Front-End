@@ -1,0 +1,44 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: #7B8FA1;
+    border-radius: 20px;
+    margin-left: 28%;
+    margin-top: 10%;
+    border: 3px solid #2B3A55;
+}
+
+.title{
+padding-left: 20px;
+}
+
+.mainText{
+    display: inline-block;
+    padding-left: 20px;
+    height: 206px;
+    padding-top: 20px;
+}
+
+img{
+    border-radius: 10px;
+    float: right;
+}
+
+.main{
+    background-color: #CFB997;;
+}
+
+p{
+    margin: 0;
+    padding-top: 10px;
+}
+
+.bottom{
+    padding-left: 20px;
+    padding-top: 10px;
+}

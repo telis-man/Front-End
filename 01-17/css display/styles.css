@@ -1,0 +1,20 @@
+#ye{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+}
+
+p{
+    display: inline-block;
+}
+
+#re{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 5px;
+    border: 1px solid black;
+}

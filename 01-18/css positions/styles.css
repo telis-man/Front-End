@@ -1,0 +1,47 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.sample1{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: red;
+}
+
+.sample2{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: rgb(0, 219, 110);
+}
+
+.sample3{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    background-color: grey;
+}
+
+
+.sample4{
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+}
+.sample5{
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+}
+.sample6{
+    position: absolute;
+    bottom: 70%;
+    right: 20%;
+
+}

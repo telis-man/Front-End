@@ -1,0 +1,57 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #84a59d;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+}
+
+.conatainer{
+
+    height: 400px;
+    width: 1200px;
+    background-color: #f6bd60;
+    display: flex;
+    padding: 10px;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: #f28482;
+    margin: 10px;
+}
+
+.one{
+    order: 3;
+    flex-grow: 2;
+}
+
+.two{
+    order: 4;
+    flex-grow: 1;
+}
+
+.three{
+    order: 1;
+    flex-grow: 3;
+}
+
+.four{
+    order: 5;
+    flex-grow: 2;
+}
+
+.five{
+    order: 2;
+    flex-grow: 3;
+}
