@@ -34,4 +34,3 @@ hamburger.addEventListener('click',function ()
           ul.style.display="none";
   
        } }
-
