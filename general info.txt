@@ -2,4 +2,7 @@ YARN
 
 yarn init [projectname]
 yarn add parcel --dev
+yarn add --dev --exact prettier
+yarn add materialize-css
 yarn run dev
+
