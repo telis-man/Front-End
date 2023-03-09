@@ -1,0 +1,73 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Comfortaa", cursive;
+  background-color: #473C33;
+  background-color: #f28482;
+  background-color: #84a59d;
+  background-color: #f5cac3;
+  background-color: #f6bd60;
+  background-color: #f7ede2;
+}
+body button {
+  background-color: transparent;
+  border: 1px solid black;
+  font-family: "Bebas Neue", cursive;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  transition: 0.4s ease;
+}
+body button:hover {
+  background-color: #84a59d;
+}
+body .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+body .container .openedCards {
+  margin-left: auto;
+}
+body .container > * {
+  background-color: transparent;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .cardsContainer .card {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+body .cardsContainer .card img {
+  height: auto;
+  width: 100px;
+}
+body .cardsContainer .card > * {
+  margin: 5px;
+}
+body .cardsContainer .card .buttonsMenu {
+  margin-top: auto;
+}
+body .cardsContainer .card .buttonsMenu > * {
+  margin-top: 10px;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

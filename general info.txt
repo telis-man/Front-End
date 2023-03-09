@@ -1,0 +1,5 @@
+YARN
+
+yarn init [projectname]
+yarn add parcel --dev
+yarn run dev

@@ -1,0 +1,234 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Droid Serif", serif;
+
+  background-color: #f35236;
+  background-color: #6facaf;
+  background-color: #f9e4d3;
+  background-color: #ffb087;
+  background-color: #000000;
+  background-color: #f9e4d3;
+  color: #000000;
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  li {
+    list-style-type: none;
+  }
+  //https://dribbble.com/shots/8303444-Playfair-Display
+  //https://imagecolorpicker.com/
+  //https://jonsuh.com/hamburgers/
+  //   https://codepen.io/silkine/pen/QWBxVX
+  height: 100%;
+  margin: 0;
+
+  .container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-image: url("../assets/homeImgCropped.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+
+    .createPost{
+      margin-left: 20vw;
+      margin-right: 20vw;
+
+      .postToggler{
+        margin-top: 5px;
+        width: 100%;
+        padding: 5px;
+        background-color: #6facaf;
+        border: 0;
+        margin-bottom: 5px;
+      }
+
+      input{
+        border: 0;
+        border-bottom: 1px solid black;
+      }
+
+      label{
+        text-align: center;
+      }
+
+      form{
+        border: 1px solid blue;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        background-color: #f9e4d3;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: opacity 0.4s ease;
+
+        &>*{
+          margin-top: 10px;
+        }
+        input{
+          background-color: #f9e4d3;
+        }
+        button{
+          background-color: #6facaf;
+        }
+      }
+
+      .displayNone{
+        height: 0;
+        opacity: 0;
+
+      }
+    }
+    .posts{
+    .post{
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      background-color: #f9e4d3;
+      padding: 20px;
+
+      p{
+        word-break: break-all;
+      }
+
+
+      img{
+        width: 80vw;
+        align-self: center;
+      }
+    }
+  }
+
+    .mainImage {
+      // background-image: url("../assets/homeImgCropped.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      position: relative;
+      z-index: -1;
+    }
+
+    .nav {
+
+      .secondaryHeader {
+        display: none;
+      }
+
+      .navMenu {
+        text-decoration: none;
+        display: none;
+        padding: 0;
+        margin: 0;
+        background-color: #f9e4d3;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding: 10px;
+
+        li {
+          text-align: center;
+          margin: 10px;
+          
+
+          a {
+            width: 100%;
+            text-align: center;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #000000;
+          }
+        }
+      }
+      .navMenu-active {
+        display: block;
+      }
+
+      .navMobile {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+          background-color: #f35236;
+          width: 40px;
+          height: 40px;
+          color: #f9e4d3;
+          text-align: center;
+          line-height: 40px;
+          // border-radius: 5px;
+          font-size: 1.8rem;
+          margin: 5px;
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+
+    .container {
+
+      .nav{
+
+        display: flex;
+        background-color: #f9e4d3;
+        .navMenu{
+          width: 100%;
+          display: block;
+          display: flex;
+          margin: 0;
+          padding: 0;
+          justify-content: center;
+          padding-right: 40px;
+          li{
+            a{
+              font-size: 20px;
+            }
+          }
+        }
+        .navMobile{
+          .hamburger{
+            display: none;
+          }
+        }
+      }
+
+      .posts {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .post {
+
+          margin: 20px;
+          display: flex;
+          flex-direction: column;
+          background-color: #f9e4d3;
+          padding: 20px;
+          width: 300px;
+    
+
+          p {
+            word-break: break-all;
+          }
+
+          img {
+            width: 270px;
+            align-self: center;
+          }
+        }
+      }
+    }
+  }
+}

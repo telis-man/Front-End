@@ -1,0 +1,30 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Lexend", sans-serif;
+  background-color: #473C33;
+  background-color: #f28482;
+  background-color: #84a59d;
+  background-color: #f5cac3;
+  background-color: #f6bd60;
+  background-color: #f7ede2;
+  box-sizing: border-box;
+  color: #473C33;
+}
+body form {
+  width: 400px;
+  margin: 50px auto;
+}
+body form input {
+  width: 100%;
+  padding: 10px;
+}
+body form div {
+  text-transform: uppercase;
+}/*# sourceMappingURL=styles.css.map */

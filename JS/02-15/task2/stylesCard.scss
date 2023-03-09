@@ -1,0 +1,70 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    
+    background-color: #473C33;
+    background-color: #f28482;
+    background-color: #84a59d;
+    background-color: #f5cac3;
+    background-color: #f6bd60;
+    background-color: #f7ede2;
+
+    form{
+        // border: 3px solid black;
+        display: flex;
+        border-radius: 5px;
+        flex-direction: column;
+        width: 300px;
+        padding: 20px;
+
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+
+    }
+    p{
+      text-align: center;
+    }
+
+    div{
+        align-self: center;
+        height: 200px;
+        width: 200px;
+        border: 5px solid #473C33;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin: 15px;
+        border-radius: 20px;
+        transition: 200ms ease;
+        font-size: 2rem;
+        text-transform: uppercase;
+ 
+    }
+    input, button
+    {
+        padding: 5px;
+      border: 2px solid black;
+      border-radius: 4px;
+      background-color: transparent;
+      text-transform: uppercase;
+      margin: 10px;
+      transition: 0.2s ease;
+      font-family: 'Bebas Neue', cursive;
+
+      &:hover{
+        background-color: #fdf2f0;
+      }
+    }
+
+}

@@ -1,0 +1,50 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Bebas Neue", cursive;
+  background-color: #473C33;
+  background-color: #f28482;
+  background-color: #84a59d;
+  background-color: #f5cac3;
+  background-color: #f6bd60;
+  background-color: #f7ede2;
+}
+body form {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+body form textarea {
+  font-family: "Bebas Neue", cursive;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #473C33;
+  background-color: #f7ede2;
+}
+body form textarea:first-of-type {
+  border-color: #84a59d;
+}
+body form label {
+  font-size: 1.5rem;
+}
+body form input, body form button {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: 0.2s ease;
+  font-family: "Bebas Neue", cursive;
+  display: block;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
