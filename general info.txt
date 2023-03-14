@@ -4,5 +4,35 @@ yarn init [projectname]
 yarn add parcel --dev
 yarn add --dev --exact prettier
 yarn add materialize-css
+yarn add bootstrap
 yarn run dev
+yarn add @popperjs/core (sita pries pridedant js bootstrapui)
+
+ADDITIONAL FILES
+.prettierrc.json
+.gitignore
+
+TEST API
+https://testapi.io/resources/916/records
+
+NAUJAS PROJEKTAS
+cd [projekto vieta]
+code . (atidarys vs code)
+isijungti terminala (git bash)
+yarn init [projectname]
+yarn add parcel --dev
+prisidėti scripts eilutes
+ "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+susikurti.prettierrc.json ir .gitignore (jame pridėti ./node_modules)
+yarn add bootstrap
+yarn add @popperjs/core (sita pries pridedant js bootstrapui)
+susilinkinti scss ir script.js
+import 'bootstrap/dist/js/bootstrap.min.js'
+@import '~bootstrap/scss/bootstrap';
+yarn run dev
+
+
 

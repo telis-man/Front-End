@@ -1,3 +1,18 @@
+@import '~materialize-css/sass/materialize.scss';
+
+
 body {
-    background-color: aqua;
+    .parallax-container {
+        height: 200px;
+    }
+
+    .row {
+        #cover1 {
+            border: 1px solid red;
+            background-image: url("https://wallpapercave.com/wp/wp3808827.jpg");
+            background-position: cover;
+            height: 300px;
+
+        }
+    }
 }
